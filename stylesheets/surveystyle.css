@@ -1,0 +1,23 @@
+body {
+    background-color: royalblue;
+}
+
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background-color: rgba(0, 217, 256, 0.5);
+    margin: 0px 30%;
+    max-width: 35%;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+input {
+    margin: 8px;
+}
+
+#text-based input, #text-based select, #submit{
+    width: 100%;
+}
