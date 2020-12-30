@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="stylesheets/surveystyle.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">Random Survey Form</h1>
+            <p id="description">Just a random survey...</p>
+        </header>
+        <form action="" id="survey-form">
+            <div id="text-based">
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" placeholder="Enter Name" id="name" required><br>
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" placeholder="Enter Email" id="email" required><br>
+                <label for="age" id="number-label">Age(optional)</label><br>
+                <input type="number" min="10" max="120" placeholder="10" id="number" required><br>
+                <label for="instrument">Choose an instrument:</label><br>
+                <select name="instrument" id="dropdown">
+                    <option value="guitar">Guitar</option>
+                    <option value="flute">Flute</option>
+                    <option value="piano">Piano</option>
+                    <option value="violin">Violin</option>
+                    <option value="percussion">Percussion</option>
+                </select><br>
+            </div>
+            <label for="gender">Gender</label><br>
+            <input type="radio" value="male" id="male" name="gender" checked>
+            <label for="male">Male</label><br>
+            <input type="radio" value="female" id="female" name="gender">
+            <label for="female">Female</label><br>
+            <input type="radio" value="other" id="other" name="gender">
+            <label for="other">Other</label><br>
+            <label for="languages">Check all fluent languages:</label><br>
+            <input type="checkbox" id="english" name="languages" value="english" checked>
+            <label for="english">English</label><br>
+            <input type="checkbox" id="french" name="languages" value="french">
+            <label for="french">French</label><br>
+            <input type="checkbox" id="spanish" name="languages" value="spanish">
+            <label for="spanish">Spanish</label><br>
+            <input type="checkbox" id="german" name="languages" value="german">
+            <label for="german">German</label><br>
+            <input type="checkbox" id="mandarin" name="languages" value="mandarin">
+            <label for="mandarin">Mandarin</label><br>
+            <label for="comment">Comment</label><br>
+            <textarea name="comment" rows="4" cols="55" placeholder="Enter additional comments..."></textarea><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
